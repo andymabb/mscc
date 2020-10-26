@@ -132,7 +132,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <p>Cllr. Owen Williams, Chair Manordeilo and Salem Community Council receiving a new defibrillator from Mr David Nicholas, Cariad Heart Charity. Also in the picture l. to r. are Mrs Mair Griffiths Chair Manordeilo Reading Room, County Cllr. Joseph Davies and Clerk Mrs Jane Davies. Funds were raised through a donation from the Community Council and local fundraising activities. The new defibrillator will be located in Upper Manordeilo and provide a valuable resource in addition to the existing units located outside both Cwmifor and Salem Village Halls, Capel Isaac, Rhosmaen and the Beechwood Estate Talley Road.</p>
 <picture class="full">
 <source type="image/avif" srcset="images/news/new-defibrillator.avif">
-<img src="images/news/new-defibrillator.jpg" alt="The new defibrillator being presented to Cllr. Owen Willians">
+<img src="images/news/new-defibrillator.jpg" width="700" height="461" alt="The new defibrillator being presented to Cllr. Owen Willians">
 </picture>
 <time datetime="2019-09-23" class="meta">23/09/2019</time>
 </li>
