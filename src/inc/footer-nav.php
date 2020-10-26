@@ -18,9 +18,7 @@
     <a href="covid.php">Covid-19</a>
     </li> -->
     </li>
-    <li class="<?php if($page=='news-archive.php'){echo 'active';}?>">
-    <a href="news-archive.php">News Archive</a>
-    </li>
+
     <li><a href="disclaimer.php">Disclaimer</a></li>
     <li><a href="accessibility.php">Accessibility</a></li>
     </ul>

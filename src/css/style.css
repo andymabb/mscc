@@ -87,7 +87,7 @@ html{
 
 @media screen and (min-width:50rem){
 	.main{
-		padding-top: 2em;
+		padding: 2em 0 2em;
 	}
 }
 
@@ -259,7 +259,7 @@ img{
 @media screen and (min-width:50rem){
 	.fr{
 		float: right;
-		margin: 0 0 0 1em;
+		margin: 0 0 1em 1em;
 	}
 	.fl{
 		float: left;
@@ -278,6 +278,10 @@ img{
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1em;
 	align-items: center;
+}
+
+.border{
+	border: 1px solid #ccc;
 }
 
 @media screen and (min-width:50rem){
