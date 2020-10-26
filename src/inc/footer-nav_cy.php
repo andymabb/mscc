@@ -15,9 +15,9 @@
         </ul>
     
     <ul class="footer-nav nav">
-        <li class="<?php if($page=='covid_cy.php'){echo 'active';}?>">
+        <!-- <li class="<?php if($page=='covid_cy.php'){echo 'active';}?>">
         <a href="covid_cy.php">Covid-19</a>
-        </li>
+        </li> -->
         <li class="<?php if($page=='news-archive_cy.php'){echo 'active';}?>">
         <a href="news-archive_cy.php">Arc Newyddion</a>
         </li>

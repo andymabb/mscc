@@ -97,7 +97,7 @@ function reload(done) {
 
 function serve(done) {
   server.init({
-    proxy: "localhost/BUILDS/manordeilo/dist"
+    proxy: "localhost/BUILDS/mscc/dist"
   });
   done();
 }

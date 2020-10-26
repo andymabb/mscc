@@ -14,9 +14,9 @@
     </ul>
     
     <ul class="footer-nav nav">
-    <li class="<?php if($page=='covid.php'){echo 'active';}?>">
+    <!-- <li class="<?php if($page=='covid.php'){echo 'active';}?>">
     <a href="covid.php">Covid-19</a>
-    </li>
+    </li> -->
     </li>
     <li class="<?php if($page=='news-archive.php'){echo 'active';}?>">
     <a href="news-archive.php">News Archive</a>
