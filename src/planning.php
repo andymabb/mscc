@@ -12,7 +12,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="page-planning">
 
 <?php include("inc/svgs.php"); ?>
 <div class="wrapper">

@@ -86,7 +86,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 
 <section class="mb5">
-<h3 id="news">Local News</h3>
+<h3 id="news">Latest News</h3>
 <div class="well">
 <h4>Message from Dyfed Powys Police - Just Hang Up!</h4>
 <p>Criminals pretending to be from Microsoft, Norton and BT are trying to scam Dyfed-Powys residents.</p>
