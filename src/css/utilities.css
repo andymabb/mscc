@@ -1,0 +1,146 @@
+.toc{
+	margin-left:0;
+}
+
+.roman{
+  list-style-type: lower-roman;
+}
+/*.roman > li:before {
+  content: counter(list, lower-roman) ") ";
+  counter-increment: list;
+}*/
+.alpha{
+	list-style-type: lower-alpha;
+}
+/*.alpha > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}*/
+
+.roman li, .alpha li{
+	margin-bottom: .5em;
+}
+
+/* nested */
+.alpha .roman, ol .alpha{
+	margin-left: 1.5em;
+	margin-top: .5em;
+}
+
+/* Alignment */
+.c{
+	text-align: center;
+}
+
+.r{
+	text-align: right;
+}
+
+.bb{
+	border-bottom:1px solid var(--bb-colour);
+}
+
+.mb0{
+	margin-bottom: 0;
+}
+
+.mb5{
+	margin-bottom: .5em;
+}
+
+.unstyled{
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 1em;
+}
+
+.dl-grid{
+	display:grid;
+	grid-template-columns: min-content 1fr;
+	grid-gap: 0 1em;
+}
+
+.dl-grid dt{
+	grid-column: 1;
+}
+.dl-grid dd{
+	grid-column: 2;
+}
+
+ .clear {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: .4em .6em;
+    border-radius: 0 4px 0 4px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--link-colour);
+    display: inline-block;
+    float:right;
+}
+
+.clear:hover, .clear:focus {
+    background: var(--link-colour);
+    color: #fff;
+} 
+
+/*
+Close button on loaded documents
+(uses js page refresh)
+*/
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.inline-nav{
+	display:flex;
+	flex-flow: wrap;
+}
+
+.inline-nav a{
+	display: inline-block;
+	padding: .1em 1em .1em 0;
+}
+
+/*ICONS*/
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  position: relative;
+  top:.1em;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */

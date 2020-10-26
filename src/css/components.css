@@ -1,0 +1,414 @@
+/*==============
+	Minutes
+================*/
+
+.well{
+  padding: 1em;
+  background: var(--well-bg);
+  border:1px solid #ccc;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
+.minutes time{
+	font-weight: bold;
+}
+
+.minutes hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.minutes h4{
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.minute-matters .roman{
+	margin-left: 1.5em;
+}
+
+.minute-matters em{
+	display: block;
+	text-align: right;
+}
+
+.minutes-archive-list{
+	padding-left: 0;
+	list-style: none;
+	column-width:14ch;
+}
+
+.minutes-archive-list ul{
+	padding-left: 1em;
+	list-style:none;
+	margin-bottom: 1em;
+}
+
+.minutes-archive-list .active a{
+	text-decoration: none;
+}
+.minute-matters > li{
+  margin-bottom: 1em;
+}
+.minute-matters p{
+  margin: 0;
+}
+
+/*with headings (h4)*/
+.minute-matters{
+    list-style: none;
+    padding: 0;
+    counter-reset:h2;
+}
+
+.minute-matters li h4:before {
+    content: counter(h2) ".\0000a0\0000a0";
+    counter-increment: h2;
+}
+
+
+.financial {
+	list-style-type: "\007E";
+}
+
+.minutes-cards{
+	display:grid;
+	grid-template-columns: repeat( auto-fit, minmax(6em, 1fr) );
+	grid-gap: 1em;
+	margin-bottom: 1em;
+}
+
+.minutes-cards h4{
+	margin: 0 0 0 1em;
+}
+.minutes-cards ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+/*===================
+Planning Applications
+=====================*/
+
+.planning-applications{
+	list-style-type: none;
+}
+
+.planning-applications > li{
+	padding: .5em 1em 0;
+	background: rgba(205,205,205,.1);
+	border:1px solid #dadada;
+	margin-bottom: 1em;
+}
+
+.tabs__content .planning-applications > li{
+	background: #fff;
+}
+
+@media screen and (min-width: 480px) {
+	.planning-applications dl{
+	display:grid;
+	grid-template-columns: auto 1fr;
+	grid-gap:0 1em;
+	}
+}
+
+.planning-applications dt{
+	grid-column: 1;
+}
+
+.planning-applications dd{
+	grid-column: 2;
+}
+
+.planning-applications dt:after{
+	content:":";
+}
+
+
+/*========== 
+Councilors 
+============*/
+
+.councillors{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0 1em;
+}
+
+.councillors .cllr-list{
+	margin-left: 0;
+}
+
+.cllr-list{
+	margin-left: 1em; /* for annual report*/
+}
+
+.cllr-list dd{
+	margin-bottom: 0;
+}
+
+.cllr-list dt{
+	border-top: 1px solid;
+}
+
+.cllr-list > dt:first-child{
+	border-top: none;
+}
+
+.cllr-list > dd:last-child{
+	border-bottom: 1px solid;
+}
+
+/*==========
+ACCOUNTS
+============*/
+
+.accounts dl{
+  display:grid;
+  grid-template-columns: 1fr 10ch;
+  grid-gap: 0 1em;
+}
+
+.accounts dt{
+  font-weight: normal;
+}
+
+.accounts dd{
+  text-align: right;
+}
+
+/*=========
+ PAYMENTS
+ ========= */
+
+.payments, .doi-table{
+	font-size: 90%;
+	width: 100%;
+	overflow: auto;
+	table-layout: fixed;
+	border-collapse:collapse;
+}
+
+.payments td, .payments th,
+.doi-table td, .doi-table th{
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #e9ecef;
+}
+
+.payments th, .payments td{
+	text-align:center;
+}
+
+.doi-table td, .doi-table th{
+	text-align: left;
+}
+
+/*==========
+ STANDING ORDERS
+ ========== */
+.standing-orders h1, .code-of-conduct h1{
+	font-size: 1.8em;
+	margin: .2em 0 0;
+	line-height: 1.1;
+}
+.standing-orders h1+h1{
+	margin-bottom: .2em;
+}
+
+.standing-orders h1,
+.standing-orders h2,
+.code-of-conduct h1
+{
+	text-align: center;
+}
+
+.code-of-conduct h1{
+	margin-bottom: .5em;
+}
+
+/* Financial Regulations */
+.regs ul, .regs ol{
+	margin-left: 1.5em;
+}
+
+/* Code of Conduct */
+
+/*indent for look like a list item!*/
+.code-of-conduct .alpha,
+.code-of-conduct .indent{
+	margin-left: 1.5em;
+}
+.code-of-conduct li ol{
+	margin-left: 1.5em;
+}
+
+summary{
+	text-decoration: underline;
+	color:var(--link-colour);
+	margin-bottom: 1em;
+	cursor:pointer;
+}
+
+:not[open]{
+	display:block!important;
+	color:red!important;
+}
+
+details.description summary::after {
+  content: attr(data-open);
+  position: absolute;
+  top:-10000em;
+}
+
+details.description[open] summary::after {
+  content: attr(data-open);
+  opacity: 1;
+  position: relative;
+  top:0;
+}
+
+details.description summary::before {
+  position: absolute;
+  top:-10000em;
+}
+
+details.description:not([open]) summary::before {
+  content: attr(data-close);
+  opacity: 1;
+  position: relative;
+  top:0;
+}
+
+details.description summary::after,
+details.description summary::before {
+  display: inline-block;
+  transition: opacity .2s ease-in-out;
+}
+
+/*NEWS*/
+
+.news-items{
+	padding: 0;
+	list-style-type: none;
+}
+.news-item{
+	margin-bottom: 2em;
+	background: hsla(0,0%,80.4%,.1);
+	padding: 1em;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 5px 5px 8px rgba(0,0,0,.4);
+}
+
+
+.meta{
+	margin: 0;
+	display: block;
+	text-align: right;
+	font-size: 90%;
+}
+
+/* UTILITIES */
+/* List styles */
+
+
+
+section:after{
+	display: block;
+	content: "";
+	clear:both;
+}
+
+
+
+.doc-links{
+	list-style:disclosure-closed inside;
+}
+
+.doc-links li::marker{
+	color: var(--link-colour);
+}
+
+.with-headings{
+    list-style: none;
+    padding: 0;
+    counter-reset:h2;
+}
+
+.with-headings h2{
+	font-size: 1.2em;
+	margin-bottom: .3em;
+}
+
+.with-headings li h2:before {
+    content: counter(h2) ".\0000a0\0000a0";
+    counter-increment: h2;
+}
+
+.with-headings ul{
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+	list-style-type: disc;
+}
+
+a[rel="footnote"] {
+    border-bottom: none;
+    text-decoration: none;
+    background-color: #fff9c7;
+    line-height: 1;
+    position: relative;
+	top: 0;
+	left: 0;
+	font-size: 70%;	
+	font-weight: bold;
+	font-family:serif;
+	color: #777;
+	background-color: #e3e3e3;
+	border-radius: 50%;
+	padding: 0.2em 0.5em 0.2em;
+}
+
+a[rel="footnote"]:hover{
+	color: #fff;
+	background-color: #a41e22;
+}
+
+.return{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #777;
+	padding: .2em;
+	line-height: 0;
+	border: none;
+	font-size: 1.4em;
+	text-shadow:1px 0 1px #fff;
+}
+
+.footnotes{
+	padding: 1em 0;
+	font-size: 90%;
+	border-width: 2px 0 0 0;
+  	border-style: solid;
+	border-image: linear-gradient(90deg, #ccc 30%, transparent 30%, transparent 100%) 1;
+}
+
+.footnotes li{
+	margin: .3em 0;
+	padding-bottom: .5em;
+	border-bottom: 1px solid rgba(0,0,0,.075);
+}
+
+.footnotes li:target{
+	color:#000;
+	background-color: rgba(205,205,205,.5);
+	border:1px solid #ccc;
+	padding: 1em;
+}

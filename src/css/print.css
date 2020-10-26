@@ -1,0 +1,47 @@
+@media print { 
+
+	@page {
+        size: A4;
+        margin: 0;
+    }
+ 
+	body{
+		color:black!important;
+		font-family: serif;
+		font-size: 12pt!important;
+	}
+
+
+	.wrapper{
+		display:block!important;
+		width: 21cm;
+        margin: 1cm auto 2cm;
+        padding: 0 1cm;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+	}
+
+	.header{
+		display: block;
+		color:black;
+		font-size: 15pt!important;
+		text-align: center;
+	}
+
+	.main{
+		font-size: 12pt!important;
+	}
+
+	.back, .top, img{
+		display:none!important;
+		height:0;
+	}
+
+	a{
+		text-decoration: none;
+		color:black!important;
+	}
+
+
+}
