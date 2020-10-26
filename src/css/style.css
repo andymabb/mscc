@@ -170,21 +170,77 @@ left: 0;
 
 .banner-holder{
 padding-top:29.2968%;
+background-color: var(--header-colour);
+border:1px solid rgba(255,255,255,.3);
+border-width:1px 0;
 }
 
 .banner{
 background-image: url('../images/header-1024.jpg');background-position: 50% 20%;
 }
 
+
+.avif .page-documents .banner{
+	background-image: url('../images/cwmifor-1024.avif');
+}
+
+.webp .page-documents .banner{
+	background-image: url('../images/cwmifor-1024.webp');
+}
+
+.page-documents .banner{
+	background-image: url('../images/cwmifor-1024.jpg');
+}
+
+.avif .page-planning .banner{
+	background-image: url('../images/towy-1024.avif');
+}
+
+.webp .page-planning .banner{
+	background-image: url('../images/towy-1024.webp');
+}
+
+.page-planning .banner{
+	background-image: url('../images/towy-1024.jpg');
+}
+
+
+
 @media screen and (min-width:1024px){
 	.banner-holder{
 	padding-top:14.6484%;
 	}
 	.banner{
-	background-image: url('../images/header2.jpg');
+	background-image: url('../images/header.jpg');
+	}
+
+	.avif .page-documents .banner{
+		background-image: url('../images/cwmifor.avif');
+	}
+	
+	.webp .page-documents .banner{
+		background-image: url('../images/cwmifor.webp');
+	}
+	
+	.page-documents .banner{
+		background-image: url('../images/cwmifor.jpg');
+	}
+
+	.avif .page-planning .banner{
+		background-image: url('../images/towy.avif');
+	}
+	
+	.webp .page-planning .banner{
+		background-image: url('../images/towy.webp');
+	}
+	
+	.page-planning .banner{
+		background-image: url('../images/towy.jpg');
 	}
 
 }
+
+
 
 .mainnav{
 	max-width: 1024px;
