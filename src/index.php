@@ -9,6 +9,11 @@ $page = basename($_SERVER["PHP_SELF"]);
 <meta name="description" content="Local news, documents, planning decisions and local services">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+<link rel="manifest" href="images/favicons/site.webmanifest">
+
 </head>
 <body class="page-home">
 <div id="skiptocontent"><a href="#main">Skip to content</a></div>
