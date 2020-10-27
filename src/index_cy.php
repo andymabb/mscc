@@ -39,7 +39,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <P>Mae Cyngor Cymuned Manordeilo a Salem yn cynnwys dwy Ward sef Cwmifor a Salem ac yn cwmpasu cymunedau cyfagos Manordeilo, Rhosmaen, Penybanc, Capel Isaac a Taliaris.</P>
 <P>Mae aelodaeth y Cyngor Cymuned yn cynnwys deuddeg cynghorydd etholedig, saith i gynrychioli Ward Cwmifor a phump i gynrychioli Ward Salem.</P>
 <P>Mae'r Cyngor Cymuned yn bodoli i wasanaethu a chynrychioli'r gymuned ac mae'r cyfarfodydd yn cael eu cynnal ar yr ail Nos Fercher bob mis (nid oes cyfarfod ym Mis Awst) am 7:30yh yn Ystafell Ddarllen Manordeilo. Mae croeso i aelodau'r cyhoedd fynychi'r cyfarfodydd.</P>
-<p><a href="#news">Y newyddion diweddaraf</a></p>
+<p class="r"><a href="#news">Y newyddion diweddaraf</a></p>
 
 <h3>Covid-19</h3>
 <p class="error">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati numquam autem illo, assumenda doloribus labore inventore distinctio suscipit dolor dicta ea aspernatur accusantium soluta eveniet nostrum officia quidem recusandae sunt.</p>
@@ -64,7 +64,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <h3>Hysbysiad Archwilio ar gyfer y Flwyddyn Ariannol sy'n Diweddu 31 Mawrth 2020</h3>
 <p class="error">Please find below the Notice of Appointment of Date for the Exercise of Elector's Rights under the Public Audit (Wales) Act 2004.</p>
 
-<p class="error"><a href="downloads/Notice of date appointed for the exercise of_electors.pdf">dogfen rhybudd archwilio</a> <small>(PDF - English)</small></p>
+<p class="error"><a href="downloads/Notice of date appointed for the exercise of_electors.pdf">Dogfen Rhybudd Archwilio</a> <small>(PDF - English)</small></p>
 </section>
 
 <section class="bb mb5">

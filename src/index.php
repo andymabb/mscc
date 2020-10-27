@@ -43,7 +43,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <p>Manordeilo and Salem Community Council comprises two Wards of Cwmifor and Salem and covers the surrounding communities of Manordeilo, Rhosmaen, Penybanc, Capel Isaac and Taliaris.</p>
 <p>The Community Council membership consists of twelve elected councilors, seven representing Cwmifor Ward and five representing Salem Ward.</p>
 <p>The Community Council exists to serve and represent the community and the meetings are held on the second Wednesday of every month (there is no meeting in August) at 7:30 pm in the Manordeilo Reading Room. Members of the public are welcome to attend the meetings.</p>
-<p><a href="#news">Latest News</a></p>
+<p class="r"><a href="#news">Latest News</a></p>
 </section>
 
 <section class="bb mb5">
