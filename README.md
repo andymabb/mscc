@@ -7,8 +7,8 @@ Development files, build process and output files for MSCC website.
 ## Setup
 1. Clone this repo
 2. Rename package.json.txt package.json
-2. Install dependencies specified in package.json (run npm init)
-3. Edit gulpfile.js to point to server
+2. Install dependencies specified in package.json (npm init)
+3. Edit gulpfile.js around ln. 100 to point to server
 4. Run "Gulp" - this will:
 * Combine and compress css, js & html and output to the 'dist' folder
 * Display pages in default browser
