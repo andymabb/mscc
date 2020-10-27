@@ -3,7 +3,7 @@ Development files, build process and output files for MSCC website.
 ## Requirements
 * Node and NPM
 * GULP (npm install -g gulp-cli)
-* Local server for PHP - XAMPP recommended (Windows)
+* Local server for PHP - XAMPP recommended
 ## Setup
 1. Clone this repo
 2. Rename package.json.txt package.json
