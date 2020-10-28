@@ -45,32 +45,37 @@ $page = basename($_SERVER["PHP_SELF"]);
 <!-- <?php include("covid/health.php"); ?>Health -->
 <!-- <?php include("covid/housing.php"); ?>housing -->
 
-<div class="js-accordion">
- <h3 class="js-accordion__header"data-accordion-opened="true">Local Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/local.php"); ?>
+<div data-accordion="1">
+  <details>
+  <summary>Local Information</summary> 
+      <?php include("covid/local.php"); ?>
+  </details>
+
+  <details>
+    <summary>Help & Information</summary> 
+      <?php include("covid/help.php"); ?>
+  </details>
+
+  <details>
+    <summary>Business & Finance</summary> 
+      <?php include("covid/business.php"); ?>
+  </details>
+
+  <details>
+    <summary>Education & Families</summary> 
+      <?php include("covid/education.php"); ?>
+  </details>
+
+  <details>
+    <summary>Health Information</summary> 
+      <?php include("covid/health.php"); ?>
+  </details>
+
+  <details>
+    <summary>Housing</summary> 
+      <?php include("covid/housing.php"); ?>
+  </details>
  </div>
- <h3 class="js-accordion__header">Help & Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/help.php"); ?>
- </div>
- <h3 class="js-accordion__header">Business & Finance</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/business.php"); ?>
- </div>
- <h3 class="js-accordion__header">Education & Families</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/education.php"); ?>
- </div>
- <h3 class="js-accordion__header">Health Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/health.php"); ?>
- </div>
- <h3 class="js-accordion__header">Housing</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/housing.php"); ?>
- </div>
-</div>
 
 
 </main>
@@ -82,5 +87,6 @@ $page = basename($_SERVER["PHP_SELF"]);
 </div>
 
 <script src="js/scripts.min.js"></script>
+
 </body>
 </html>	

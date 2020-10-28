@@ -36,32 +36,37 @@ $page = basename($_SERVER["PHP_SELF"]);
 <main class="main" id="main">
 <h2 class="page-title">Covid (CY) - <span class="error">different content!</span></h2>
 <p class="error">Some information is missing from the exsiting Welsh pages, some partial (4 scams vs 2) and some (Shops) content does not appear in English</p>
-<div class="js-accordion">
-<h3 class="js-accordion__header" data-accordion-opened="true">Local Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/local_cy.php"); ?>
+<div data-accordion="1">
+  <details>
+  <summary>Local Information</summary> 
+      <?php include("covid/local_cy.php"); ?>
+  </details>
+
+  <details>
+    <summary>Help & Information</summary> 
+      <?php include("covid/help_cy.php"); ?>
+  </details>
+
+  <details>
+    <summary>Business & Finance</summary> 
+      <?php include("covid/business_cy.php"); ?>
+  </details>
+
+  <details>
+    <summary>Education & Families</summary> 
+      <?php include("covid/education_cy.php"); ?>
+  </details>
+
+  <details>
+    <summary>Health Information</summary> 
+      <?php include("covid/health_cy.php"); ?>
+  </details>
+
+  <details>
+    <summary>Housing</summary> 
+      <?php include("covid/housing_cy.php"); ?>
+  </details>
  </div>
- <h3 class="js-accordion__header">Help & Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/help_cy.php"); ?>
- </div>
- <h3 class="js-accordion__header">Business & Finance</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/business_cy.php"); ?>
- </div>
- <h3 class="js-accordion__header">Education & Families</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/education_cy.php"); ?>
- </div>
- <h3 class="js-accordion__header">Health Information</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/health_cy.php"); ?>
- </div>
- <h3 class="js-accordion__header">Housing</h3>
- <div class="js-accordion__panel">
-   <?php include("covid/housing_cy.php"); ?>
- </div>
-</div>
 
 </main>
 
