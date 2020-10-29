@@ -273,18 +273,6 @@ h6 {
  font-size:1em
 }
 
-
-.main a{
-	color:var(--link-colour);
-}
-
-.main a:hover,
-.main .active a
-{
-	color:#900;
-}
-
-
 .page-title{
 	border-bottom: 1px solid #ababab;
 	line-height: 1.1;
