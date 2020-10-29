@@ -12,11 +12,8 @@
 	position: relative;
 	color: royalblue;
 	overflow: hidden;
-	background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, royalblue));
 	background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
 	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	background-size: 200% 100%;
 	background-position: 100%;
 	-webkit-transition: background-position 275ms ease;
@@ -26,9 +23,6 @@
 	background-position: 0 100%;
   }
   
-
-
-
 .mainnav{
 	display:flex;
 	align-items: center;
