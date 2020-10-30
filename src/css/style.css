@@ -133,6 +133,27 @@ html{
 	grid-row: 6;
 }
 
+.credit{
+	grid-column: 2 / 4;
+	grid-row: 6;
+	justify-self:end;align-self: end;
+	text-align: center;
+
+}
+
+.credit a{
+	color:#ccc;
+	font-size: 85%;
+	opacity: .5;
+	transition:all .3s ease-in-out;
+	padding: .5em;
+}
+
+.credit a:hover{
+	color:#fff;
+	opacity: 1;
+}
+
 .header, .footer, .nav-wrap{
 	color:#fff;
 	background-color: var(--header-colour);
@@ -282,10 +303,14 @@ h6 {
 .copy{
 	font-size: 0.95em;
 	text-align: center;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
-/* Images */
+@media screen and (min-width: 60rem) {
+	.copy{
+		margin-bottom: 0.5em;
+	}
+}
 
 img{
 	max-width: 100%;
