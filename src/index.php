@@ -188,7 +188,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <footer class="footer">
 <?php include("inc/footer.php"); ?>
 </footer>
-<div class="credit" role="contentinfo"><a href="https://pontbren.com">Website by Pontbren</a></div>
+<div class="credit"><a href="https://pontbren.com">Website by Pontbren</a></div>
 </div>
 
 <script src="js/scripts.min.js"></script>
