@@ -172,7 +172,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <footer class="footer">
 <?php include("inc/footer_cy.php"); ?>
 </footer>
-<div class="credit"><a href="https://pontbren.com">Gwefan gan Pontbren</a></div>
+<div class="credit" role="contentinfo"><a href="https://pontbren.com">Gwefan gan Pontbren</a></div>
 </div>
 
 <script src="js/scripts.min.js"></script>
