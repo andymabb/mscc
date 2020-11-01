@@ -26,12 +26,12 @@ $page = basename($_SERVER["PHP_SELF"]);
     <div class="banner"></div>
 </div>
 
-<div class="nav-wrap">
+<nav class="nav-wrap">
   <ul class="mainnav nav">
   	<?php include("inc/mainnav_cy.php"); ?>
   	<li class="switch"><a href="covid.php">English</a></li>
   </ul>
-</div>
+</nav>
 
 <main class="main" id="main">
 <h2 class="page-title">Covid (CY) - <span class="error">different content!</span></h2>

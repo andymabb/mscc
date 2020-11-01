@@ -28,12 +28,12 @@ $page = basename($_SERVER["PHP_SELF"]);
 <div class="banner"></div>
 </div>
 
-<div class="nav-wrap">
+<nav class="nav-wrap">
 <ul class="mainnav nav">
 <?php include("inc/mainnav.php"); ?>
 <li class="switch"><a href="index_cy.php">Cy<span>mraeg</span></a></li>
 </ul>
-</div>
+</nav>
 
 <main class="main" id="main">
 <h2 class="page-title">Welcome to Manordeilo and Salem Community Council</h2>

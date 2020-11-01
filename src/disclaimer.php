@@ -26,12 +26,12 @@ $page = basename($_SERVER["PHP_SELF"]);
     <div class="banner"></div>
 </div>
 
-<div class="nav-wrap">
+<nav class="nav-wrap">
 	<ul class="mainnav nav">
 	<?php include("inc/mainnav.php"); ?>
 	<li class="switch"><a href="disclaimer_cy.php">Cymraeg</a></li>
 	</ul>
-</div>
+</nav>
 
 <main class="main" id="main">
 <h2 class="page-title">Disclaimer (draft)</h2>
