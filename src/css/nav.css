@@ -8,7 +8,7 @@
 	color:#900;
 }
 
-.main a {
+/* .main a {
 	position: relative;
 	color: royalblue;
 	overflow: hidden;
@@ -21,7 +21,7 @@
   }
   .main a:hover {
 	background-position: 0 100%;
-  }
+  } */
   
 .mainnav{
 	display:flex;

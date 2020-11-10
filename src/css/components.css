@@ -326,14 +326,20 @@ section:after{
 	clear:both;
 }
 
-
-
 .doc-links{
 	list-style:disclosure-closed inside;
 }
 
-.doc-links li::marker{
+.doc-links li::marker,
+.link-list li::marker
+{
 	color: var(--link-colour);
+}
+
+.link-list li:hover::marker{
+	color:#900;
+	font-size: 1.2em;
+	transition: all .3s ease-in-out;
 }
 
 .with-headings{
