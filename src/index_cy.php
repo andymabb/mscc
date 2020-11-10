@@ -35,10 +35,31 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 <main class="main" id="main">
 <h2 class="page-title">Croeso i Cyngor Cymuned Manordeilo a Salem</h2>
-<P>Rydym yn gobeithio y byddwch yn ei gael yn ffynhonnell werthfawr a diddorol o wybodaeth.</P>
-<P>Mae Cyngor Cymuned Manordeilo a Salem yn cynnwys dwy Ward sef Cwmifor a Salem ac yn cwmpasu cymunedau cyfagos Manordeilo, Rhosmaen, Penybanc, Capel Isaac a Taliaris.</P>
-<P>Mae aelodaeth y Cyngor Cymuned yn cynnwys deuddeg cynghorydd etholedig, saith i gynrychioli Ward Cwmifor a phump i gynrychioli Ward Salem.</P>
-<P>Mae'r Cyngor Cymuned yn bodoli i wasanaethu a chynrychioli'r gymuned ac mae'r cyfarfodydd yn cael eu cynnal ar yr ail Nos Fercher bob mis (nid oes cyfarfod ym Mis Awst) am 7:30yh yn Ystafell Ddarllen Manordeilo. Mae croeso i aelodau'r cyhoedd fynychi'r cyfarfodydd.</P>
+<p> Manordeilo and Salem Community  Council is an elected body that serves and represents the interests  of residents across the two Wards of Cwmifor and Salem. These Wards  also include the communities of Capel Isaac, Manordeilo, Penybanc,  Rhosmaen and Taliaris. Membership of the Community Council is made up  of 12 councillors, seven councillors representing the Cwmifor Ward  and five representing the Salem Ward.</p>
+
+<p>Meetings  are normally held on the second Wednesday of every month (there is no  meeting in August) at 7:30pm in the Manordeilo Reading Room. During  the Covid-19 pandemic, meetings are being held remotely via Zoom and  this arrangement will continue until further notice. Members of the  community can still access these meetings however and login details  are provided on the agendas posted on our website and notice boards  in the community. </p>
+
+<p>The  Community Council is mainly funded through a Precept. A Precept is a  charge that is included within the Council Tax collected by  Carmarthenshire County Council and redistributed to community and  town councils. We are also able to apply for grants for special  projects.</p>
+
+<h3>What we do</h3>
+<p>The  Council represents the people living in our area at the closest level  to the community. We represent the views of our communities and  actively engage in matters such as:</p>
+<h4>Community  facilities and projects</h4>
+<ul>
+  <li>For example: benches, defibrillators, notice boards and financial contributions to local causes and charities.</li>
+</ul>
+<h4>Environment</h4>
+<ul>
+  <li>For example: biodiversity and footpath conditions.</li>
+</ul>
+<h4>Highways</h4>
+<ul>
+  <li>For example: road conditions and signs, street lighting and traffic issues.</li>
+</ul>
+<h4>Planning  applications</h4>
+<ul>
+  <li>The Community Council has a statutory right to be consulted on all planning applications in our communities and makes observations to the planning authority that are taken into account in the	decision-making process.</li>
+</ul>
+<p>We  also work with Carmarthenshire County Council, other community and  town councils and authorities such as the Welsh Government and  Dyfed-Powys Police to provide local services. We are a member of One  Voice Wales, the umbrella organisation for town and community  councils across Wales.</p>
 <p class="r"><a href="#news">Y newyddion diweddaraf</a></p>
 
 <h3>Covid-19</h3>
