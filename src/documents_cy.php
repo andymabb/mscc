@@ -48,7 +48,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 <section id="s-minutes" class="bb mb5">
 	<h3>Cofnodion - 2020</h3><!-- Minutes -->
-	
+	<p>Sylwch mai dim ond ar ôl iddynt gael eu llofnodi a'u cytuno'n gywir yn y cyfarfod canlynol y mae cofnodion ar gael ar-lein. <span class="error">check</span></p>
 	<ul class="minutes-archive-list">
 		<li>
 			<a href="?minutes-holder=minutes/minutes_20-03-11_cy.php" class="ajax">11/3/2020</a>

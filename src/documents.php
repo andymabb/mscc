@@ -47,6 +47,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 	<section id="s-minutes" class="bb mb5">
 		<h3>Minutes - 2020</h3>
+		<p>Please note that minutes are only available online once they have been signed and agreed correct at the following meeting.</p>
 		
 		<ul class="minutes-archive-list">
 			<li>

@@ -59,7 +59,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <section class="bb mb5">
 <h3>Defibrillators</h3>
 
-<p>Below is a list of locations for defibrillators that the Community Council have funded and/or supported across our community. Please make a note of their locations and inform as many people as possible across the area. We hope they never need to be used, but knowledge of their whereabouts might just save a life.</p>
+<p>Find below a list of locations for defibrillators that the Community Council have funded and/or supported across our community.</p>
 
 <ul>
 <li>All Small Engines, Manordeilo, Llandeilo, SA19 7BG</li>

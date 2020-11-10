@@ -47,7 +47,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 <section class="bb mb5">
 <h3>Diffibrilwyr</h3>
 
-<p class="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea repellat maiores dolorum dicta nostrum sed accusantium cupiditate assumenda odio saepe culpa quo perferendis obcaecati unde recusandae ipsa sint, eius.</p>
+<p class="error">Find below a list of locations for defibrillators that the Community Council have funded and/or supported across our community</p>
 
 <ul>
 <li>All Small Engines, Manordeilo, Llandeilo, SA19 7BG</li>
