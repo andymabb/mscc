@@ -63,7 +63,7 @@
 		<dd>£5,641.69</dd>
 		<dt>Less Cheques not presented: 1291-£50.00,1295-£100.00, 1296-£100.00, 1299-£50.00, 1300-£50.00, 1301-£50.00</dt>
 		<dd>£400.00</dd>
-		<dt><strong>Closing Balance 31st March 2018</strong></dt>
+		<dt><strong>Closing Balance 31st March 2019</strong></dt>
 		<dd><strong>£5,241.69</strong></dd>
 	</dl>
 </div>
