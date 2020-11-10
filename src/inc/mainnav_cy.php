@@ -10,11 +10,6 @@
 <li class="<?php if($page=='services_cy.php'){echo 'active';}?>">
 	<a href="services_cy.php">Gwasanaethau<span class="small-hide"> Lleol</span></a>
 </li>
-<!-- <li class="<?php if($page=='covid_cy.php'){echo 'active';}?>">
-	<a href="covid_cy.php">Covid-19</a>
+<li class="<?php if($page=='covid_cy.php'){echo 'active';}?>">
+	<a href="covid_cy.php">C<span class="small-hide">o</span>v<span class="small-hide">id-</span>19</a>
 </li>
-<li class="<?php if($page=='news-archive_cy.php'){echo 'active';}?>">
-	<a href="news-archive_cy.php">Arc Newyddion</a>
-</li>
-<li><a href="disclaimer_cy.php">Ymwadiad</a></li>
-<li><a href="accessibility_cy.php">Hygyrchedd</a></li> -->

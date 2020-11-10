@@ -9,12 +9,7 @@
 </li>
 <li class="<?php if($page=='services.php'){echo 'active';}?>">
 <a href="services.php"><span class="small-hide">Local </span>Services</a>
-<!-- <li class="<?php if($page=='covid.php'){echo 'active';}?>">
-<a href="covid.php">Covid-19</a>
 </li>
+<li class="<?php if($page=='covid.php'){echo 'active';}?>">
+<a href="covid.php">C<span class="small-hide">o</span>v<span class="small-hide">id-</span>19</a>
 </li>
-<li class="<?php if($page=='news-archive.php'){echo 'active';}?>">
-<a href="news-archive.php">News Archive</a>
-</li>
-<li><a href="disclaimer.php">Disclaimer</a></li>
-<li><a href="accessibility.php">Accessibility</a></li> -->
