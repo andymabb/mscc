@@ -1,27 +1,23 @@
 .main a{
 	color:var(--link-colour);
+	text-decoration-thickness: .0625em;
+	transition: all .25s;
+}
+
+.main a{
+	color: color(blue alpha(-10%));
+	
+}
+
+.main a:visited{
+	color:var(--visited);
 }
 
 .main a:hover,
-.main .active a
-{
-	color:#900;
+.main .active a{
+	color:var(--hover-colour);
+	text-decoration-thickness: .12em;
 }
-
-/* .main a {
-	position: relative;
-	color: royalblue;
-	overflow: hidden;
-	background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-	background-clip: text;
-	background-size: 200% 100%;
-	background-position: 100%;
-	-webkit-transition: background-position 275ms ease;
-	transition: background-position 275ms ease;
-  }
-  .main a:hover {
-	background-position: 0 100%;
-  } */
   
 .mainnav{
 	display:flex;

@@ -8,7 +8,9 @@
 
 :root{
     --primary-text: #575767;
-	--link-colour:#00008b;
+	--link-colour:hsl(240, 100%, 28%);
+	--hover-colour:#900;
+	--visited:hsl(240, 100%, 43%);
 	--nav-hover: hsl(180, 3.1%, 15%);
 	--active: #0d0b0a;
     --tab-colour:#0056b3;

@@ -62,9 +62,6 @@ $page = basename($_SERVER["PHP_SELF"]);
 <p>We  also work with Carmarthenshire County Council, other community and  town councils and authorities such as the Welsh Government and  Dyfed-Powys Police to provide local services. We are a member of One  Voice Wales, the umbrella organisation for town and community  councils across Wales.</p>
 <p class="r"><a href="#news">Y newyddion diweddaraf</a></p>
 
-<h3>Covid-19</h3>
-<p class="error">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati numquam autem illo, assumenda doloribus labore inventore distinctio suscipit dolor dicta ea aspernatur accusantium soluta eveniet nostrum officia quidem recusandae sunt.</p>
-
 <section class="bb mb5">
 <h3>Diffibrilwyr</h3>
 
@@ -133,6 +130,9 @@ $page = basename($_SERVER["PHP_SELF"]);
 <source type="image/avif" srcset="images/news/hospital-staff3.avif">
 <img src="images/news/hospital-staff3.jpg" height="300" width="400" alt="Health workers enjoy donated food">
 </picture>
+
+<p><a href="covid.php">Covid 19</a></p>
+
 </div>
 
 <details>

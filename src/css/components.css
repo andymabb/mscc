@@ -337,7 +337,7 @@ section:after{
 }
 
 .link-list li:hover::marker{
-	color:#900;
+	color:var(--hover-colour);
 	font-size: 1.2em;
 	transition: all .3s ease-in-out;
 }
