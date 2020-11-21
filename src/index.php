@@ -67,13 +67,14 @@ $page = basename($_SERVER["PHP_SELF"]);
 <p class="r"><a href="#news">Latest News</a></p>
 </section>
 
-<!-- <section class="bb mb5">
+<section class="bb mb5">
 <h3>Covid-19 Message</h3>
 <p>The Community Council will not be holding face-to-face meetings until social distancing measures have been sufficiently relaxed due to the ongoing risks posed by Covid-19. We will inform the community as soon as we are able to resume our normal meeting schedule.</p>
 <p>In the meantime, we will continue to conduct Community Council business remotely, and we aim to be a point of contact for anyone within our community who needs further information and support during this difficult time.</p>
 <p>Please especially get in touch with us if you, or anyone you know, is suffering severe financial hardship and we will do our best to ensure that you receive the support you need. Please contact our Clerk in the first instance: 01558 328264 or <a href="mailto:janedavies41@gmail.com">janedavies41@gmail.com</a></p>
 <p>Please stay safe and follow all government guidelines. We are all in this together and we must all do our part to support each other. This time will pass and we will emerge a stronger community for it.</p>
-</section> -->
+<p><a href="covid.php">Covid 19 Information</a></p>
+</section>
 						
 
 <section class="bb mb5">

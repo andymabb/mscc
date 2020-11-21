@@ -124,6 +124,7 @@ Planning Applications
 
 .planning-applications dd{
 	grid-column: 2;
+	margin-bottom: 0;
 }
 
 .planning-applications dt:after{
