@@ -112,10 +112,11 @@
 	position: absolute;
 	z-index: -999;
 	bottom:-.9em;
+	font-size: 1.2em;
 	left:50%;
 	left: calc(50% - .2em);
 	color:#7a7d57;
-	filter: drop-shadow(1px 1px 1px rgba(0,0,0,.5));
+	transform: perspective(200px) rotateX(55deg); 
 }
 
 .footer-contact-wrap{
