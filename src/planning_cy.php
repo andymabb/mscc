@@ -34,25 +34,12 @@ $page = basename($_SERVER["PHP_SELF"]);
 </nav>
 
 <main class="main" id="main">
-<h2 class="page-title">Cynllunio - <span class="error">translation required</span></h2>
+<h2 class="page-title">Cynllunio</h2>
+<p>Dod o hyd i wybodaeth ar geisiadau cynllunio yn ein cymuned a gyflwynwyd ac a benderfynwyd arnynt yn ystod 2020.</p>
+<p>Dangosir gwybodaeth yn yr iaith y cafodd ei derbyn.</p>
+<p>I ddod o hyd i fanylion llawn ar gyfer ceisiadau cynllunio ewch i wefan <a href="https://www.sirgar.llyw.cymru/cartref/gwasanaethaur-cyngor/cynllunio/">Cynllunio Cyngor Sir Gâr</a>.</p>
 
-<!-- <p>Please find on this page information pertaining to planning applications, decisions and updates within
-the Manordeilo & Salem Community Council area, which we aim to revise regularly.</p>
-<p>The Community Council has a statutory right to be consulted on all planning applications in its territory
-and makes observations to the Local Planning Authority (LPA) that are taken into account in the
-decision-making process.</p>
-<p><a href="https://www.carmarthenshire.gov.wales/home/council-services/planning">Carmarthenshire County
-Council's planning pages</a>. These pages illustrate the full details and stages achieved in the
-planning process for all applications received within our area and others across the County.</p>
-<p>Please find below a list of all planning applications relating to our community that have been submitted
-to the LPA in 2020 to the present and the applications that have been decided over the same period. We
-aim to keep it updated every week if possible.</p> -->
-
-<p>Find information on all planning applications submitted and decided within our community during 2020.</p>
-<p>Information is shown in the language in which it was received.</p>
-<p>View full planning application details on the <a href="https://www.carmarthenshire.gov.wales/home/council-services/planning">Carmarthenshire County Council Planning</a> site.</p>
-
-<h3>January 2020 - Present</h3>
+<h3>Ionawr 2020 - Present</h3>
 <div class="js-tabs" data-existing-hx="h4">
 	<ul class="js-tablist">
 		<li class="js-tablist__item">

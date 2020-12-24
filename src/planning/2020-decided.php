@@ -223,23 +223,26 @@
 <li>
 <h4>E/35357</h4>
 <dl>
-<dt>Application Type</dt>: Reserved Matters
-<dt>Date Registered</dt>: 31st March 2017
-<dt>
-	Location
-</dt>: Cwrt y Felin, Tannery, Rhosmaen, Llandeilo, SA19 7AF
-<dt>
-	Description
-</dt>: Proposed residential development of six dwellings and estate road
-<dt>
-	Decision Level
-</dt>: Delegated
-<dt>
-	Decision
-</dt>: GRANTED
-<dt>
-	Decision Date
-</dt>: 15th January 2020
+<dt>Application Type</dt>
+<dd>Reserved Matters</dd>
+<dt>Date Registered</dt>
+<dd>31st March 2017</dd>
+<dt>Location</dt>
+<dd>
+	Cwrt y Felin<br>
+	Tannery<br>
+	Rhosmaen<br>
+	Llandeilo<br>
+	SA19 7AF
+</dd>
+<dt>Description</dt>
+<dd>Proposed residential development of six dwellings and estate road</dd>
+<dt>Decision Level</dt>
+<dd>Delegated</dd>
+<dt>Decision</dt>
+<dd>GRANTED</dd>
+<dt>Decision Date</dt>
+<dd>15th January 2020</dd>
 </dl>
 </li>
 </ul>

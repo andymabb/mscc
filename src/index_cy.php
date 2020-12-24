@@ -35,46 +35,46 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 <main class="main" id="main">
 <h2 class="page-title">Croeso i Cyngor Cymuned Manordeilo a Salem</h2>
-<p> Manordeilo and Salem Community  Council is an elected body that serves and represents the interests  of residents across the two Wards of Cwmifor and Salem. These Wards  also include the communities of Capel Isaac, Manordeilo, Penybanc,  Rhosmaen and Taliaris. Membership of the Community Council is made up  of 12 councillors, seven councillors representing the Cwmifor Ward  and five representing the Salem Ward.</p>
+<p>Mae Cyngor Cymuned Manordeilo a Salem yn gorff etholedig yn gwasanaethu ac yn cynrychioli diddordebau trigolion ar draws dwy Ward sef Cwmifor a Salem. Mae’r ddwy Ward hefyd yn cynnwys cymunedau Capel Isaac, Manordeilo, Penybanc, Rhosmaen a Thaliaris.</p>
+<p>Mae 12 Cynghorydd yn aelodau o’r Cyngor Cymuned, saith Cynghorydd yn cynrychioli Ward Cwmifor a phump yn cynrychioli Ward Salem.</p>
+<p>Fel arfer cynhelir cyfarfodydd ail nos Fercher bob mis am 7:30pm yn Ystafell Ddarllen Manordeilo (ni chynhelir cyfarfod ym mis Awst). Fodd bynnag yn ystod pandemig Covid-19, cynhelir y cyfarfodydd o bell ar Zoom a bydd y trefniant hwn yn parhau tan yr hysbysir yn wahanol. Gall aelodau’r gymuned barhau i fedru mynychu’r cyfarfodydd hyn a darperir y manylion mewngofnodi ar yr Agenda a roddir ar ein gwefan a hefyd ar yr hysbysfyrddau yn y gymuned.</p>
+<p>Prif ffynhonnell arian y Cyngor Cymuned yw’r Archebiant.  Mae arian yr Archebiant wedi’i gynnwys yn rhan o Dreth y Cyngor a gesglir gan Gyngor Sir Gâr a’i ddosbarthu i gynghorau tref a chymuned. Medrwn hefyd wneud ceisiadau am grantiau ar gyfer prosiectau penodol.</p>
 
-<p>Meetings  are normally held on the second Wednesday of every month (there is no  meeting in August) at 7:30pm in the Manordeilo Reading Room. During  the Covid-19 pandemic, meetings are being held remotely via Zoom and  this arrangement will continue until further notice. Members of the  community can still access these meetings however and login details  are provided on the agendas posted on our website and notice boards  in the community. </p>
+<h3>Ein cyfrifoldebau</h3>
 
-<p>The  Community Council is mainly funded through a Precept. A Precept is a  charge that is included within the Council Tax collected by  Carmarthenshire County Council and redistributed to community and  town councils. We are also able to apply for grants for special  projects.</p>
-
-<h3>What we do</h3>
-<p>The  Council represents the people living in our area at the closest level  to the community. We represent the views of our communities and  actively engage in matters such as:</p>
-<h4>Community  facilities and projects</h4>
+<p>Mae’r Cyngor yn cynrychioli’r bobl sy’n byw yn ein hardal a hynny ar y lefel sy’n glos i’r gymuned. Rydym yn cynrychioli barn ein cymunedau ac yn ymgysylltu â materion megis:</p>
+<h4>Cyfleusterau a phrosiectau cymunedol</h4>
 <ul>
-  <li>For example: benches, defibrillators, notice boards and financial contributions to local causes and charities.</li>
+  <li>Er enghraifft: meinicau, diffriblwyr, hysbysfyrddau a chyfraniadau ariannol i achosion lleol ac elusennau.</li>
 </ul>
-<h4>Environment</h4>
+<h4>Yr Amgylchedd</h4>
 <ul>
-  <li>For example: biodiversity and footpath conditions.</li>
+  <li>Er enghraifft: bioamrywiaeth a chyflwr llwybrau troed.</li>
 </ul>
-<h4>Highways</h4>
+<h4>Priffyrdd</h4>
 <ul>
-  <li>For example: road conditions and signs, street lighting and traffic issues.</li>
+  <li>Er enghraifft: cyflwr ffyrdd ac arwyddion, goleuadau stryd a materion yn ymwneud â thraffig. </li>
 </ul>
-<h4>Planning  applications</h4>
+<h4>Ceisiadau cynllunio</h4>
 <ul>
-  <li>The Community Council has a statutory right to be consulted on all planning applications in our communities and makes observations to the planning authority that are taken into account in the	decision-making process.</li>
+  <li>Mae hawl statudol gan y Cyngor Cymuned i fod yn rhan o’r ymgynghori ar holl geisiadau cynllunio ein hardal ac i wneud sylwadau i’r awdurdod cynllunio er mwyn iddynt hwy gymryd y sylwadau hyn i ytyriaeth pan yn gwneud penderfyniadau. </li>
 </ul>
-<p>We  also work with Carmarthenshire County Council, other community and  town councils and authorities such as the Welsh Government and  Dyfed-Powys Police to provide local services. We are a member of One  Voice Wales, the umbrella organisation for town and community  councils across Wales.</p>
+<p>Mae Cyngor Cymuned Manordeilo a Salem hefyd yn gweithio gyda Chyngor Sir Gâr, cynghorau tref a chymuned eraill ac awdurdodau megis Llywodraeth Cymru a Heddlu Dyfed-Powys. </p>
 <p class="r"><a href="#news">Y newyddion diweddaraf</a></p>
 
 <section class="bb mb5">
-<h3>Covid-19 Message</h3>
-<p>The Community Council will not be holding face-to-face meetings until social distancing measures have been sufficiently relaxed due to the ongoing risks posed by Covid-19. We will inform the community as soon as we are able to resume our normal meeting schedule.</p>
-<p>In the meantime, we will continue to conduct Community Council business remotely, and we aim to be a point of contact for anyone within our community who needs further information and support during this difficult time.</p>
-<p>Please especially get in touch with us if you, or anyone you know, is suffering severe financial hardship and we will do our best to ensure that you receive the support you need. Please contact our Clerk in the first instance: 01558 328264 or <a href="mailto:janedavies41@gmail.com">janedavies41@gmail.com</a></p>
-<p>Please stay safe and follow all government guidelines. We are all in this together and we must all do our part to support each other. This time will pass and we will emerge a stronger community for it.</p>
-<p><a href="covid_cy.php">Covid 19 Information</a></p>
+<h3>Neges Covid-19</h3>
+<p>Ni fydd y Cyngor Cymuned yn cynnal cyfarfodydd wyneb yn wyneb tan i’r mesurau ymbellhau cymdeithasol gael eu llacio’n ddigonol oherwydd y peryglon yn sgil Covid–19. Byddwn yn hysbysu’r gymuned cyn gynted ag y byddwn yn medru ailddechrau ein hamserlen o gyfarfodydd arferol.</p>
+<p>Yn y cyfamser, byddwn yn parhau i ymgymryd â busnes y Cyngor Cymuned o bell, a’n nod yw bod yn fan cyswllt i unrhyw un yn ein cymuned sydd angen rhagor o wybodaeth a chefnogaeth yn ystod y cyfnod anodd hwn.</p>
+<p>Cysylltwch â ni os ydych chi, neu rhywun chi’n nabod, yn dioddef o galedi ariannol difrifol a fe wnawn ni ein gorau i sicrhau eich bod yn derbyn y gefnogaeth sydd ei angen arnoch. Fel man cychwyn dylid cysylltu a’n Clerc: 01558 328264 neu <a href="mailto:janedavies41@gmail.com">janedavies41@gmail.com</a></p>
+<p>Cadwch yn ddiogel a dilynwch ganllawiau’r llywodraeth. Mae pawb yn gorfod byw trwy hyn a rhaid i ni gyd chwarae ein rhan er mwyn cefnogi’n gilydd. Fe ddaw’r cyfnod hwn i ben a fe wnawn ni fel cymuned ddod allan ohono’n gryfach."</p>
+<p><a href="covid_cy.php">Gwybodaeth Covid 19</a></p>
 </section>
 
 <section class="bb mb5">
-<h3>Diffibrilwyr</h3>
+<h3>Diffriblwyr</h3>
 
-<p class="error">Find below a list of locations for defibrillators that the Community Council have funded and/or supported across our community</p>
+<p>Isod ceir rhestr o leoliadau ar gyfer diffriblwyr y mae’r Cyngor Cymuned wedi’u hariannu a/neu gefnogi yn y gymuned. </p>
 
 <ul>
 <li>All Small Engines, Manordeilo, Llandeilo, SA19 7BG</li>

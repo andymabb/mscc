@@ -37,59 +37,11 @@ $page = basename($_SERVER["PHP_SELF"]);
 		<h2 class="page-title">Local Services</h2>
 <p class="mb0">On this page:</p>
 <ul class="nav inline-nav">
-	<!-- <li><a href="#emergency">Emergency Services</a></li> -->
 	<li><a href="#local">Local Activities & News</a></li>
 	<li><a href="#older">Older People's Services</a></li>
 	<li><a href="#v">Volunteering</a></li>
 	<li><a href="#vw">Volunteering Wales</a></li>
-	<!-- <li><a href="#political">Political Representatives</a></li> -->
 </ul>
-
-<!-- <section class="bb mb5">
-	<h3 id="emergency">Emergency Services</h3>
-	<div class="twocol">
-		<div>
-			<h4>Dyfed-Powys Police</h4>
-			<p>Telephone 999 in an emergency (or text phone 18000 for those who are deaf, deafened, hard of hearing or with a speech impairment):</p>
-			<ul>
-				<li>Where there is crime is in progress</li>
-				<li>Where someone is in immediate danger or there is a risk of serious damage to property</li>
-				<li>Where a suspect for a serious crime is nearby</li>
-				<li>Where there is a traffic collision involving injury or danger to other road users</li>
-			</ul>
-			<p>Telephone 101 for non-emergencies (or text phone 18001 101) where police attendance is required, to report a crime, or to report any other incidents. Calls to 101 have a fixed cost of 15p per call.</p>
-				
-			<p><a href="https://www.police.uk/dyfed-powys/">Dyfed Police Website</a></p>
-		</div>
-		
-		
-		<div>
-			<h4>Mid & West Wales Fire & Rescue Service</h4>
-			
-			<p><strong>Always call 999 in an emergency!</strong></p>
-			
-			<p>
-				For all other enquiries, please use the contact details below.
-			</p>
-			
-			<p>
-				Address:<br>
-				Fire Service Headquarters<br>
-				Lime Grove Avenue<br>
-				Carmarthen<br>
-				SA31 1SP
-			</p>
-			
-			<ul>
-				<li>Website: <a href="https://www.mawwfire.gov.uk/eng/">mawwfire.gov.uk/eng/</a></li>
-				<li>Email: <a href="mailto:mail@mawwfire.gov.uk">mail@mawwfire.gov.uk</a></li>
-				<li>Tel. No: 03706 060699</li>
-			</ul>
-		</div>
-	</div>
-</section> -->
-
-
 
 <section class="bb mb5">
 	<h3 id="local">Local Activities & News</h3>
@@ -162,63 +114,6 @@ $page = basename($_SERVER["PHP_SELF"]);
 	
 	<p>Email Address: <a href="mailto:volunteering-wales@wcva.org.uk">volunteering-wales@wcva.org.uk</a></p>
 </section>
-
-<!-- <section class="bb mb5">
-	<h3 id="political">Political Representatives</h3> 
-	
-	<p>Member of Parliament: Jonathan Edwards MP for Carmarthen East & Dinefwr</p>
-	
-	<p>
-		Parliamentary Office:<br>
-		House of Commons<br>
-		London<br>
-		SW1A 0AA
-	</p>
-	
-	<p>
-		Constituency Office: <br>
-		37 Wind Street<br>
-		Ammanford<br>
-		Carmarthenshire<br>
-		SA18 3DN
-	</p>
-	
-	<ul>
-	 	<li>Website: <a href="https://adam-plaidcarmarthenshire.nationbuilder.com/">https://adam-plaidcarmarthenshire.nationbuilder.com/</a></li>
-	 	<li>Email: <a href="mailto:jonathan.edwards.mp@parliament.uk">jonathan.edwards.mp@parliament.uk</a></li>
-	 	<li>Parliamentary Tel. No: 02072 193000</li>
-	 	<li>Constituency Tel. No: 01269 597677</li>
-	 </ul> 
-	
-	<p>Assembly Member: Adam Price AM for Carmarthen East & Dinefwr</p>
-	
-	<p>
-		Assembly Office:<br>
-		National Assembly for Wales<br>
-		Cardiff Bay<br>
-		Cardiff<br>
-		CF99 1NA
-	</p>
-	
-	<p>
-	 	Constituency Office:<br>
-	 	37 Wind Street<br>
-	 	Ammanford<br>
-	 	Carmarthenshire<br>
-	 	SA18 3DN
-	 </p> 
-	
-	<ul>
-		<li>Website: <a href="https://adam-plaidcarmarthenshire.nationbuilder.com/">adam-plaidcarmarthenshire.nationbuilder.com/</a></li>
-		<li>Email: <a href="mailto:Adam.Price@assembly.wales">Adam.Price@assembly.wales</a></li>
-		<li>Assembly Tel. No: 0300 200 7177</li>
-		<li>Constituency Tel. No: 01269 597677</li>
-	</ul>
-</section> -->
-
-
-
-	
 
 </main>
 

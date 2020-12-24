@@ -17,6 +17,7 @@
     --well-bg: rgba(205, 205, 205, 0.1);
 	--bb-colour:#ccc;
 	--header-colour: hsl(65.5, 23.8%, 35%);
+	--header-colour:hsl(60, 61.7%, 28%); /*new 31.8%*/
 }
 
 html{
@@ -65,9 +66,11 @@ html{
 	background-position: 50% 2em;
 }
 
+
 .wrapper{
 	max-width: 1024px;
 	margin: 0 auto;
+	background: #fff;
 }
 
 @supports (display: grid){

@@ -51,6 +51,12 @@ $page = basename($_SERVER["PHP_SELF"]);
 		
 		<ul class="minutes-archive-list">
 			<li>
+				<a href="?minutes-holder=minutes/minutes_2020-11.php" class="ajax">11/11/2020</a>
+			</li>
+			<li>
+				<a href="?minutes-holder=minutes/minutes_2020-10.php" class="ajax">14/10/2020</a>
+			</li>
+			<li>
 				<a href="?minutes-holder=minutes/minutes_20-07-08.php" class="ajax">8/7/2020</a>
 			</li>
 			<li>

@@ -35,7 +35,7 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 <main class="main" id="main">
 <h2 class="page-title">Dogfennau</h2>
-<p class="mb0">Ar y dudalen hon <span class="error">check translations</span>:</p>
+<p class="mb0">Ar y dudalen hon</p>
 		<ul class="nav inline-nav">
 			<li><a href="#s-minutes">Cofnodion</a></li>
 			<li><a href="#s-annual">Adroddiadau Blynyddol</a></li>
@@ -47,9 +47,12 @@ $page = basename($_SERVER["PHP_SELF"]);
 
 
 <section id="s-minutes" class="bb mb5">
-	<h3>Cofnodion - 2020</h3><!-- Minutes -->
-	<p>Sylwch mai dim ond ar ôl iddynt gael eu llofnodi a'u cytuno'n gywir yn y cyfarfod canlynol y mae cofnodion ar gael ar-lein. <span class="error">check</span></p>
+	<h3>Agendau a Chofnodion</h3><!-- Minutes --> 
+	<p>Noder y bydd cofnodion ar gael ar lein cyn gynted â’u bod wedi’u harwyddo a chytuno eu bod yn gywir yn y cyfarfod dilynol.</p>
 	<ul class="minutes-archive-list">
+		<li>
+			<a href="?minutes-holder=minutes/minutes_2020-09_cy.php" class="ajax">9/9/2020</a>
+		</li>
 		<li>
 			<a href="?minutes-holder=minutes/minutes_20-07-08_cy.php" class="ajax">8/7/2020</a>
 		</li>
